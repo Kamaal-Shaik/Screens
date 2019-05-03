@@ -1,0 +1,80 @@
+<html>
+  <head>
+      <title>Kamal</title>
+      <meta charset="utf-8">
+      <script src="jquery.min.js"></script>
+      <script src="jquery-ui.js"></script>
+      <script src="bootstrap.min.js"></script>
+      <link href="bootstrap.min.css" rel="stylesheet">
+      <link href="jquery-ui.css" rel="stylesheet">
+      <script src="custom-js.js"></script>
+  </head>
+  <style>
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+        padding-top: .75em;
+        padding-bottom: .75em;
+    }      
+  </style>
+  <body>
+    <br><br>
+    <div id="hierarchy" style="display: flex;justify-content: center;">
+        <table id="tbl_hierarchy" style="align-self: center;">
+            <tr>
+                <td colspan="3"><h3>Village Master</h3></td>
+            </tr>
+            <tr>
+                <td>Select State</td><td>:</td>
+                <td>
+                    <select id="ddl_state_n">
+                        <option value="0">Select</option>
+                    </select>                    
+                </td>
+            </tr>
+            <tr>
+                <td>Select District</td><td>:</td>
+                <td>
+                    <select id="ddl_district_n">
+                        <option value="0">Select</option>
+                    </select>                    
+                </td>
+            </tr>      
+            <tr>
+                <td>Select Mandal</td><td>:</td>
+                <td>
+                    <select id="ddl_mandal_p">
+                        <option value="0">Select</option>
+                    </select>                    
+                </td>
+            </tr>
+            <tr>
+                <td>Select Village</td><td>:</td>
+                <td>
+                    <select id="ddl_village_c">
+                        <option value="0">Select</option>
+                    </select>                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button id="btn_edit">Edit</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button id="btn_delete">Delete</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button id="btn_add">Add</button>
+                </td>
+            </tr>                     
+        </table>
+    </div>
+    <div id="div_common_dialog">
+        <table id="tbl_common_dialog">
+            <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td><input type="text" id="txt_common_dialog" /></td>
+            </tr>
+        </table>
+    </div>
+  </body>
+</html>
