@@ -3,6 +3,8 @@ Integrate the Database
 - Restore Screens/screens/hierarchy.bson
 
 Run the Flask app
+- Install the flask framework first
+- pip install flask
 - Navigate to the 'Screens' in command line.
 - Run below command to runt the flask app.
 - python screens.py
