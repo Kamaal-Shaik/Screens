@@ -1,5 +1,5 @@
 $(function () {
-    load_states('ddl_statesss_c');
+    load_states('ddl_statess_p');
     $('#ddl_statess_p').change(function(){
         var state_val = $('#ddl_statess_p').val();
         if (state_val != 0){
